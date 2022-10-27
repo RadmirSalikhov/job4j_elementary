@@ -9,15 +9,15 @@ public class Variables2 {
         System.out.println(floor);
         float growth =  1.76f;
         System.out.println(growth);
-        short bricks = 27600;
+        short bricks = 27_600;
         System.out.println(bricks);
-        double bacteria =  7000000;
+        double bacteria = 1.234_5E+21;
         System.out.println(bacteria);
-        int distancemoon =  384400;
+        double distancemoon = 1.234_4E+21;
         System.out.println(distancemoon);
         boolean workpermit = true;
         System.out.println(workpermit);
-        long filesize = 922337203;
+        long filesize = 922_337_203;
         System.out.println(filesize);
     }
 
