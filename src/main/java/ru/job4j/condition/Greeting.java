@@ -8,6 +8,5 @@ public class Greeting {
         int year = Integer.parseInt("2022");
         idea = idea + year;
         System.out.println(idea);
-
     }
 }
