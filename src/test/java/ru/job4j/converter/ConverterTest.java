@@ -6,7 +6,7 @@ import org.junit.Test;
 public class ConverterTest {
 
     @Test
-    public void whenConvert140RblThen2dot3333Euro() {
+    public void whenConvert140RblThen23Euro() {
         float in = 140;
         float expected = 2;
         float out = Converter.rubleToEuro(in);
@@ -15,9 +15,9 @@ public class ConverterTest {
     }
 
     @Test
-    public void whenConvert140RblThen3dot3333Dollar() {
+    public void whenConvert180RblThen3Dollar() {
         float in = 180;
-        float expected = (float) 3;
+        float expected = 3;
         float out = Converter.rubleToDollar(in);
         float eps = 0.0001f;
         Assert.assertEquals(expected, out, eps);
