@@ -11,23 +11,28 @@ public class LogicNot {
     }
 
     public static boolean isPositive(int num) {
+
         return num > 0;
     }
 
     public static boolean notEven(int num) {
+
         return num % 2 != 0;
     }
 
     public static boolean notPositive(int num) {
+
         return num < 0;
     }
 
     public static boolean notEvenAndPositive(int num) {
-        return LogicNot.notEven(num) && LogicNot.isPositive(num);
+
+        return notEven(num) && isPositive(num);
     }
 
     public static boolean evenOrNotPositive(int num) {
-        return LogicNot.isEven(num) || LogicNot.notPositive(num);
+
+        return isEven(num) || notPositive(num);
     }
 
     public static void main(String[] args) {
