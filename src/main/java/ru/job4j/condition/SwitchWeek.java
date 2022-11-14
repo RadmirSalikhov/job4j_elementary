@@ -26,7 +26,7 @@ public class SwitchWeek {
                 dayweek = "Воскресенье";
                 break;
             default:
-                dayweek = "Ошибка";
+                dayweek = "Ошибка!";
                 break;
         }
         return dayweek;
