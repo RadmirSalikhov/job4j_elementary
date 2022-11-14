@@ -4,29 +4,29 @@ public class SwitchWeek {
     public static String nameOfDay(int day) {
         String dayweek;
         switch (day) {
-            case 1 :
-                dayweek ="Понедельник";
+            case 1:
+                dayweek = "Понедельник";
                 break;
-            case 2 :
-                dayweek ="Вторник";
+            case 2:
+                dayweek = "Вторник";
                 break;
-            case 3 :
-                dayweek ="Среда";
+            case 3:
+                dayweek = "Среда";
                 break;
-            case 4 :
-                dayweek ="Четверг";
+            case 4:
+                dayweek = "Четверг";
                 break;
-            case 5 :
-                dayweek ="Пятница";
+            case 5:
+                dayweek = "Пятница";
                 break;
-            case 6 :
-                dayweek ="Суббота";
+            case 6:
+                dayweek = "Суббота";
                 break;
-            case 7 :
-                dayweek ="Воскресенье";
+            case 7:
+                dayweek = "Воскресенье";
                 break;
             default:
-                dayweek ="Ошибка";
+                dayweek = "Ошибка";
                 break;
         }
         return dayweek;
