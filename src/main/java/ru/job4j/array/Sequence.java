@@ -1,5 +1,7 @@
 package ru.job4j.array;
 
+import java.util.Arrays;
+
 public class Sequence {
     public static void main(String[] args) {
         int[][] array = new int[3][3];
@@ -12,5 +14,6 @@ public class Sequence {
         array[2][0] = 7;
         array[2][1] = 8;
         array[2][2] = 9;
+        System.out.println(Arrays.deepToString(array));
     }
 }
