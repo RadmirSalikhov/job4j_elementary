@@ -9,7 +9,6 @@ public class JavaNameValidator {
             int code = name.codePointAt(i);
             if (!isSpecialSymbol(code) || isUpperLatinLetter(code) || isLowerLatinLetter(code)) {
                 valid = false;
-
                 break;
             }
         }
@@ -24,16 +23,14 @@ public class JavaNameValidator {
     }
 
     public static boolean isUpperLatinLetter(int code) {
+        return code < 65 || code > 90;
         //прописные латинские символы (от 65 до 90 включая обе границы)
         //метод должен вернуть true, если символ является прописным латинским символом
-        return code < 65 || code > 90;
-
-
     }
 
     public static boolean isLowerLatinLetter(int code) {
+        return code < 97 || code > 122;
         //строчные латинские символы (от 97 до 122 включая обе границы)
         //метод должен вернуть true, если символ является строчным латинским символом
-        return code < 97 || code > 122;
     }
 }
