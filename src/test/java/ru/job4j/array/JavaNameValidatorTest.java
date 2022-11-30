@@ -11,6 +11,7 @@ class JavaNameValidatorTest {
         assertThat(isNameValid("")).isFalse();
     }
 
+
     @Test
     void whenFullLatValid() {
         assertThat(isNameValid("first")).isTrue();
