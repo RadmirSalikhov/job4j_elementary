@@ -13,7 +13,6 @@ public class JavaNameValidator {
                 break;
             }
         }
-
         return valid;
     }
 
