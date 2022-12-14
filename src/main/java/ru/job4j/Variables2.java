@@ -7,7 +7,7 @@ public class Variables2 {
         System.out.println(age);
         char floor = 'm';
         System.out.println(floor);
-        float growth =  1.76f;
+        float growth = 1.76f;
         System.out.println(growth);
         short bricks = 27_600;
         System.out.println(bricks);

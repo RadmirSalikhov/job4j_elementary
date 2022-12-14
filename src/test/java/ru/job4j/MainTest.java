@@ -1,7 +1,8 @@
 package ru.job4j;
 
 import org.junit.jupiter.api.Test;
-import static org.assertj.core.api.Assertions.*;
+
+import static org.assertj.core.api.Assertions.assertThat;
 
 public class MainTest {
     @Test
